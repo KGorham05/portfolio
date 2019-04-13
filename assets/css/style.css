@@ -1,0 +1,109 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  overflow: hidden;
+  background: white;
+}
+
+.pen-label {
+  font-family: tahoma;
+  font-weight: 700;
+  font-size: 9vh;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40vh;
+  left: 0;
+  color: gray;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.buttons {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.pen-tag {
+  font-size: 3vh;
+  font-weight: 700;
+  letter-spacing: 2vh;
+  text-align: center;
+}
+
+.trigger-an {
+  background: none;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 2px solid white;
+  font-family: tahoma;
+  text-transform: uppercase;
+  border-radius: 80px;
+  display:inline;
+}
+
+.trigger {
+  cursor: pointer;
+  position: fixed;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: none;
+  color: gray;
+  font-size: 14px;
+  border: 2px solid gray;
+  font-family: tahoma;
+  text-transform: uppercase;
+  border-radius: 80px;
+}
+
+.trigger:hover {
+  background: gray;
+  opacity: .5;
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.rev {
+  position: fixed;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.cont {
+  display: flex;
+  width: 160%;
+  position: absolute;
+  margin-left: -25%;
+  z-index: -2;
+  opacity: 0;
+}
+
+.rRect {
+  width: 0%;
+  height: 100vh;
+  transform: skew(-40deg);
+}
+
+.yell {
+  background: #f33a3d;
+}
+
+.mar {
+  background: #26abae;
+}
+
+.default {
+  background: #2c2d31;
+}
+
+.next {
+  background: #f2a334;
+}

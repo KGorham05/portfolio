@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Kevin Gorham</title>
+  <!-- Hosted -->
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+    integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+  <!-- Local -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <!-- Inspiration http://findmatthew.com/ -->
+<!-- Video Guide for stipes: https://www.youtube.com/watch?time_continue=36&v=7oBfmrChrDQ -->
+  <div class="button_option">
+    <a href="" class="trigger action">Animate</a>
+    <a href="" class="trigger rev">Revert</a>
+  </div>
+
+  <div class="pen-label">KEVIN GORHAM
+    <p class="pen-tag">Full-stack web developer</p>
+  </div>
+
+  <div class="cont">
+    <div class="rRect default"></div>
+    <div class="rRect yell"></div>
+    <div class="rRect mar"></div>
+    <div class="rRect next"></div>
+  </div>
+
+  <script>
+
+    $(document).ready(function () {
+      $(".action").click(function () {
+        $('.cont').animate({ "width": "0%" }, 600, 'easeOutCirc');
+        $('.cont').animate({
+          "opacity": "1"
+
+        }, 900);
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width": "25%",
+          "box-shadow": "0 0 20px gray"
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color": "white"
+        }, 1000);
+      });
+
+      starter();
+      function starter() {
+        $('.cont').animate({
+          "opacity": "1"
+
+        }, 900);
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width": "25%",
+          "box-shadow": "0 0 20px gray"
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color": "white"
+        }, 1000);
+      };
+
+      $(".rev").click(function () {
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width": "0%",
+          "box-shadow": "0"
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color": "gray"
+        }, 1000);
+
+      });
+
+      $('.trigger-an').click(function () {
+        $('.rRect').animate({
+          "-webkit-transform": "skew(200deg)"
+        }, 500);
+        $('.rRect').animate({
+          "transform": "skew(200deg)"
+        }, 500);
+
+        $('.rRect').css({
+          "transform": "skew(200deg)"
+        })
+
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
