@@ -1,0 +1,128 @@
+* {
+  margin: 0 auto;
+}
+
+.splash {
+  /* position: absolute; */
+  top: 0; right: 0; bottom: 0; left: 0;
+  position: relative;
+  background: white;
+  /* height: 100vh; */
+
+}
+
+body {
+  overflow-x: hidden;
+  background: white;
+}
+
+.name {
+  font-family: tahoma;
+  font-weight: 700;
+  font-size: 9vh;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40vh;
+  left: 0;
+  color: gray;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* .buttons {
+  margin-left: 20px;
+  margin-top: 10px;
+} */
+
+.tag-line {
+  font-size: 3vh;
+  font-weight: 700;
+  letter-spacing: 2vh;
+  text-align: center;
+}
+
+.recent-work-btn, .trigger {
+  text-align: center;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px 10px;
+  background: none;
+  color: gray;
+  font-size: 14px;
+  font-family: tahoma;
+  text-transform: uppercase;
+}
+
+.recent-work-btn {
+  position: relative;
+  top: -45px;
+
+}
+
+.trigger {
+  position: fixed;
+  margin-top: 10px;
+  border: 2px solid gray;
+  border-radius: 80px;
+}
+.recent-work-btn:hover {
+  opacity: .5;
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.trigger:hover {
+  background: gray;
+  opacity: .5;
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.rev {
+  position: fixed;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.cont {
+  display: flex;
+  width: 160%;
+  position: absolute;
+  margin-left: -25%;
+  z-index: -2;
+  opacity: 0;
+}
+
+.rRect {
+  width: 0%;
+  height: 100vh;
+  transform: skew(-40deg);
+}
+
+.yell {
+  background: #f33a3d;
+  /* background: #0f1626; */
+}
+
+.mar {
+  background: #26abae;
+  /* background: #ab987a; */
+}
+
+.default {
+  background: #2c2d31;
+  /* background: #000000; */
+}
+
+.next {
+  background: #f2a334;
+  /* background: rgb(177, 177, 177); */
+
+}
+
+/* Add Media Queries for tablet + phone sizes  */
