@@ -2,8 +2,17 @@
   margin: 0 auto;
 }
 
+.splash {
+  /* position: absolute; */
+  top: 0; right: 0; bottom: 0; left: 0;
+  position: relative;
+  background: white;
+  /* height: 100vh; */
+
+}
+
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   background: white;
 }
 
@@ -39,23 +48,34 @@ body {
   cursor: pointer;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 10px;
   padding: 8px 10px;
   background: none;
   color: gray;
   font-size: 14px;
-  border: 2px solid gray;
   font-family: tahoma;
   text-transform: uppercase;
-  border-radius: 80px;
 }
 
+.recent-work-btn {
+  position: relative;
+  top: -45px;
+
+}
 
 .trigger {
   position: fixed;
+  margin-top: 10px;
+  border: 2px solid gray;
+  border-radius: 80px;
+}
+.recent-work-btn:hover {
+  opacity: .5;
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
 }
 
-.trigger:hover, .recent-work-btn:hover {
+.trigger:hover {
   background: gray;
   opacity: .5;
   color: white;
@@ -104,3 +124,5 @@ body {
   /* background: rgb(177, 177, 177); */
 
 }
+
+/* Add Media Queries for tablet + phone sizes  */
