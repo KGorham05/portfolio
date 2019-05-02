@@ -82,11 +82,11 @@ body {
     max-width: 1200px;    
   }
   
-  #header {
+  .header {
       font-weight: 300;
   }
 
-  #spec-line {
+  .spec-line {
     position: relative;
     top: -50px;
 }
@@ -119,6 +119,54 @@ body {
     opacity: 1;
     background:  rgb(245, 245, 245)
   }
+
+  /* About Me*/
+
+  #about-me {
+    clear: both;
+    background-color: #2c2d31;
+    position: relative;
+    top: 125px;
+    height: 1000px;
+  }
+
+  #about-header {
+    color: rgb(245, 245, 245);
+    padding-top: 100px;
+  }
+
+  #about-line {
+    color: rgb(245, 245, 245);
+  }
+
+  /* Code to change nav */
+  header {
+    background: purple;
+    padding: 1rem;
+    color: white;
+    
+    body.header-not-at-top & {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    @at-root {
+      body.header-not-at-top {
+        padding-top: 44px;
+      }
+    }
+    
+  }
+  #top-of-site-pixel-anchor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 1200px;
+    left: 0;
+  }
+  /* Contact */
+
 
   /*.work h3 {
     position: absolute;
