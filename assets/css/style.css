@@ -90,7 +90,11 @@ body {
     position: relative;
     top: -50px;
 }
-  
+
+#project-area {
+  clear: both;
+}
+
 .work {
     position: relative;
     float: left;
@@ -120,6 +124,24 @@ body {
     background:  rgb(245, 245, 245)
   }
 
+  #project-filter-row {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .project-filter {
+    display: inline;
+    padding: 3px 60px;
+    margin-right: 60px;
+    color: rgb(63, 39, 39);
+    font-weight: 500;
+  }
+
+  .project-highlight {
+    background-color: #ff0077;  
+    color: white;
+  }
+
   /* About Me*/
 
   #about-me {
@@ -139,25 +161,6 @@ body {
     color: rgb(245, 245, 245);
   }
 
-  /* Code to change nav */
-  header {
-    background: purple;
-    padding: 1rem;
-    color: white;
-    
-    body.header-not-at-top & {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-    }
-    @at-root {
-      body.header-not-at-top {
-        padding-top: 44px;
-      }
-    }
-    
-  }
   #top-of-site-pixel-anchor {
     position: absolute;
     width: 1px;
