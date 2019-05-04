@@ -144,12 +144,18 @@ body {
 
   .over-learn {
     color: black;
-    border: 1px solid #ff0077;
+    border: 2px solid #ff0077;
     position: relative;
-    top: 80px;
+    top: 90px;
     left: 92px;
     width: 200px;
-    font-weight: 300;
+    font-weight: 325;
+    transition: 0.3s;
+  }
+
+  .over-learn:hover {
+    color: white;
+    background: #ff0077;
   }
 
   #project-filter-row {
