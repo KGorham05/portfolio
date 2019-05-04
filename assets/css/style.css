@@ -132,6 +132,8 @@ body {
     margin-bottom: 0px;
     position: relative;
     top: 25px;
+    animation-name: flyTop;
+    animation-duration: 1s;
   }
 
   .over-tech {
@@ -140,6 +142,8 @@ body {
     top: 20px;
     color: #ff0077;
     font-weight: 300;
+    animation-name: flyTop;
+    animation-duration: 1s;
   }
 
   .over-learn {
@@ -150,7 +154,9 @@ body {
     left: 92px;
     width: 200px;
     font-weight: 325;
-    transition: 0.3s;
+    transition: 0.5s;
+    animation-name: flyBtm;
+    animation-duration: 1s;
   }
 
   .over-learn:hover {
@@ -174,6 +180,14 @@ body {
   .project-highlight {
     background-color: #ff0077;  
     color: white;
+  }
+
+  @keyframes flyTop {
+    0%   {top:-100px;}
+  }
+
+  @keyframes flyBtm {
+    0%   {top: 2git 00px;}
   }
 
   /* About Me*/
