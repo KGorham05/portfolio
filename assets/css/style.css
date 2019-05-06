@@ -30,7 +30,7 @@ body {
   }
 
   .highlight {
-    color: #f33a3d;
+    color: #ff0077;
   }
   
   
@@ -187,7 +187,7 @@ body {
   }
 
   @keyframes flyBtm {
-    0%   {top: 2git 00px;}
+    0%   {top: 200px;}
   }
 
   /* About Me*/
