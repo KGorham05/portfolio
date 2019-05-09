@@ -229,12 +229,18 @@ clear: both;
   width: 100%;
   position: relative;
   left: 80px;
+  /* filter: opacity(.5) drop-shadow(0 0 0 rgb(0, 255, 0)); */
 }
 
  
 .bullet {
   text-align: center;
   display: inline-block;
+}
+
+#headshot {
+  height: 20vw;
+  width: auto;
 }
 /* Contact */
 
