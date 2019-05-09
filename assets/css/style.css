@@ -220,15 +220,15 @@ clear: both;
 }
 
 .hexagon {
-  height: 130px;
-  width: 160px;
+  height: 95px;
+  width: 115px;
 }
 
 .hex-img {
   height: 100%;
   width: 100%;
   position: relative;
-  left: 57px;
+  left: 80px;
 }
 
  
