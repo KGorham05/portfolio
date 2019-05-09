@@ -215,21 +215,22 @@ clear: both;
 
 .bullet {
   height: 320px;
-  width: 250px;
+  width: 275px;
   margin: 0 10px;
 }
 
 .hexagon {
-  height: 175px;
-  width: 200px;
+  height: 130px;
+  width: 160px;
 }
 
 .hex-img {
   height: 100%;
   width: 100%;
   position: relative;
-  left: 24px;
+  left: 57px;
 }
+
  
 .bullet {
   text-align: center;
