@@ -16,7 +16,7 @@ body {
   .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     clear: both;
   }
     
@@ -201,16 +201,14 @@ body {
     position: relative;
     top: 125px;
     height: 1000px;
+    color: rgb(63, 39, 39)
   }
 
   #about-header {
-    color: rgb(63, 39, 39);
     padding-top: 100px;
   }
 
-  #about-line {
-    color: rgb(255, 255, 255);
-  }
+
 
   /* Contact */
 
