@@ -87,6 +87,7 @@ nav a:first-child {
 
 .header {
     font-weight: 400;
+    position: relative;
 }
 
 .spec-line {
@@ -200,7 +201,7 @@ clear: both;
   background-color: rgb(245, 245, 245);
   position: relative;
   top: 125px;
-  height: 1200px;
+  height: 1100px;
   color: rgb(63, 39, 39)
 }
 
@@ -312,72 +313,18 @@ clear: both;
 
 /* Contact */
 
-/*.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
+#contact {
+  clear: both;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-} */
-
-/* contact page */
-
-/* #contact-form ul {
-  margin-bottom: 20px;
+#contact-header {
+  top: 195px;
 }
 
-#contact-form li {
-  margin-bottom: 10px;
+#contact-line {
+  top: 145px;
 }
 
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-}
-
-.wrapper  {
-  width: 1024px;
-  margin: auto;
-} */
 
 /* Media Queries */
 
