@@ -200,7 +200,7 @@ clear: both;
   background-color: rgb(245, 245, 245);
   position: relative;
   top: 125px;
-  height: 1100px;
+  height: 1200px;
   color: rgb(63, 39, 39)
 }
 
@@ -238,8 +238,12 @@ clear: both;
   display: inline-block;
 }
 
+#skills-row {
+  position: relative
+}
+
 .who-is-that {
-  width: 400px;
+  width: 50%;
   text-align: center;
   margin-top: 10px;
   float: left;
@@ -265,9 +269,8 @@ clear: both;
 
 #skills-graph {
   float: right;
-  
-  width: 40vw;
-  color: white;
+  width: 50%;
+  color: rgb(102, 102, 102);
 }
 
 .bar-wrap {
@@ -275,22 +278,30 @@ clear: both;
   background: rgb(180, 180, 180);
   float: left;
   width: 100%;
-  height: 5vh;
+  height: 35px;
 
 }
 .bar-filled {
-  background: #26abae;
+  background: #197779;
   height: 100%;
   float: left;
   margin-bottom: 10px;
 }
+
 .bar-title {
   float: left;
+  background: #26abae;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
 }
 
 .percentage {
   float: right;
   text-align: right;
+  padding-right: 5px;
 }
 
 
