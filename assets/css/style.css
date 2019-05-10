@@ -315,16 +315,41 @@ clear: both;
 
 #contact {
   clear: both;
+  background: rgb(51, 51, 51);
+  height: 800px;
+  align-content: center;
+  position: relative;
 }
 
 #contact-header {
   top: 195px;
+  color: white;
 }
 
 #contact-line {
   top: 145px;
+  color: white;
 }
 
+#contact-tag {
+  text-align: center;
+  position: relative;
+  top: 150px;
+  color: #26abae;
+}
+
+#contact-form {
+  position: absolute;
+  top: 50%;
+  right: 300px;
+  width: 500px;
+}
+
+.input {
+  background: #2c2d31;
+  display: block;
+  border: none;
+}
 
 /* Media Queries */
 
