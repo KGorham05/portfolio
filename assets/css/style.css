@@ -232,6 +232,11 @@ clear: both;
   /* filter: opacity(.5) drop-shadow(0 0 0 rgb(0, 255, 0)); */
 }
 
+.icon {
+  position: relative;
+  bottom: 80px;
+  left: 80px;
+}
  
 .bullet {
   text-align: center;
