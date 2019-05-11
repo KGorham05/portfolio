@@ -9,6 +9,8 @@ $(document).ready(function () {
   const news = $('#news');
   const trivia = $('#trivia');
 
+  const controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 1050}});
+
   filterBtns.on('click', function () {
     let btnId = $(this)[0].id
     filterBtns.removeClass('project-highlight');
@@ -39,10 +41,17 @@ $(document).ready(function () {
       default:
         console.log('Something went wrong');
     }
-
-    
   })
 
-
+	// build scenes
+	const portScene = new ScrollMagic.Scene({triggerElement: "#portfolio"})
+          .setClassToggle("#port-nav", "highlight") // add class toggle
+					.addTo(controller);
+	const aboutScene = new ScrollMagic.Scene({triggerElement: "#about-me"})
+          .setClassToggle("#about-nav", "highlight") // add class toggle
+					.addTo(controller);
+	const contactScene = new ScrollMagic.Scene({triggerElement: "#contact"})
+          .setClassToggle("#contact-nav", "highlight") // add class toggle
+					.addTo(controller);
 
 });
