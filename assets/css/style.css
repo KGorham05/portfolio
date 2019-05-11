@@ -354,11 +354,13 @@ clear: both;
   width: 100%;
   height: 35px;
   margin-bottom: 5px;
+  color: white;
 }
 
 #message-input {
   width: 100%;
   height: 250px;
+  color: white
 }
 
 #submit-btn {
@@ -373,7 +375,7 @@ clear: both;
 }
 
 #submit-btn:hover {
-
+ 
 }
 
 /* Footer */
@@ -390,6 +392,12 @@ clear: both;
   bottom: 22px;
   background: #ff0077;
   padding: 5px 10px;
+}
+
+.icons {
+  background: rgb(59, 57, 68);
+  padding: 15px;
+  margin: 12px;
 }
 
 /* Media Queries */
