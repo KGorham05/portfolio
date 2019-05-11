@@ -220,6 +220,17 @@ clear: both;
   margin: 0 10px;
 }
 
+.bullet-title {
+  position: relative;
+  bottom: 15px;
+  font-size: 20px;
+}
+
+.bullet-text {
+  position: relative;
+  bottom: 35px;
+}
+
 .hexagon {
   height: 95px;
   width: 115px;
@@ -355,6 +366,7 @@ clear: both;
   height: 35px;
   margin-bottom: 5px;
   color: white;
+  padding: 3px;
 }
 
 #message-input {
