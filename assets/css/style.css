@@ -373,7 +373,23 @@ clear: both;
 }
 
 #submit-btn:hover {
-  
+
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background: #2c2d31;
+  height: 225px;
+}
+
+#back-to-top {
+  transform: rotate(270deg);
+  position: relative;
+  bottom: 22px;
+  background: #ff0077;
+  padding: 5px 10px;
 }
 
 /* Media Queries */
