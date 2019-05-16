@@ -442,6 +442,9 @@ bottom: 20px;
   margin: 12px;
 }
 
+#resume-icon {
+  position: relative;
+}
 /* Media Queries */
 
 /* Desktop Layout */
