@@ -11,6 +11,9 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
 /* general */
 
 .container {
@@ -135,32 +138,59 @@ clear: both;
   font-weight: 400;
   margin-bottom: 0px;
   position: relative;
-  top: 25px;
-  animation-name: flyTop;
-  animation-duration: 1s;
+  top: 15px;
+
 }
+
+.over-summary {
+  color: black;
+  font-weight: 350;
+  margin-top: 15px;
+  position: relative;
+  }
 
 .over-tech {
   margin-top: 0px;
+  margin-bottom: 5px;
   position: relative;
-  top: 20px;
+  top: -30px;
   color: #ff0077;
   font-weight: 300;
-  animation-name: flyTop;
-  animation-duration: 1s;
+}
+
+
+
+.over-git {
+margin-top: 0px;
+margin-bottom: 0px;
+display: inline-block;
+position: relative;
+bottom: 20px;
+}
+
+.over-git:hover {
+  cursor: pointer;
+   
+}
+
+.grow { 
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1); 
 }
 
 .over-learn {
   color: black;
   border: 2px solid #ff0077;
   position: relative;
-  top: 90px;
   left: 92px;
   width: 200px;
-  font-weight: 325;
-  transition: 0.5s;
-  animation-name: flyBtm;
-  animation-duration: 1s;
+  bottom: 20px;
+  margin-top: 10px;
+  font-weight: 355;
+  transition: 0.5s; 
 }
 
 .over-learn:hover {
