@@ -445,75 +445,8 @@ bottom: 20px;
 #resume-icon {
   position: relative;
 }
-/* Media Queries */
-
-/* Desktop Layout */
-@media screen and (max-width: 980px) {
-.wrapper {
-  width: 600px;
-  }
-}
-
-/* Tablet Size */
-@media screen and (max-width: 768px) {
-.wrapper {
-  width: 100%;
-  }
-}
-
-/* Phone Size */
-@media screen and (max-width: 640px) {
-.wrapper {
-  width: 100%;
-  }
-
-  #masthead {
-  position:static !important;
-  }
-
-  #logo {
-    width:100%;
-    }
-
-  .centered-on-small-screen {
-    width:100%;
-    margin:0px auto;
-    float:none;
-    -webkit-animation-name: change-nav-name-color;
-    -webkit-animation-duration: 8s;  
-    animation-name: change-nav-name-color;
-    animation-duration: 8s;
-
-  }
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes change-nav-name-color {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
-
-/* Standard syntax */
-@keyframes change-nav-name-color {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
 
 
-  nav a {
-  width:32%;
-  margin: auto;
-  float:none;
-  text-align:center;
-  }
 
-  #main-container {
-    padding-top: 10px;
-  }
-  
-}
 
 
