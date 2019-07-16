@@ -59,6 +59,7 @@ a {
 .cat-active {
   background-color: #ff0077;  
   color: white;
+  transition: background-color .7s;
 }
 /* Media Queries */
 
