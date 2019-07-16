@@ -13,8 +13,8 @@ $(document).ready(function () {
 
   filterBtns.on('click', function () {
     let btnId = $(this)[0].id
-    filterBtns.removeClass('project-highlight');
-    $(this).addClass('project-highlight');
+    filterBtns.removeClass('cat-active');
+    $(this).addClass('cat-active');
 
     switch (btnId) {
       case 'all-btn':
