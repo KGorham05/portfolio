@@ -161,7 +161,6 @@ h4 {
 #about-me {
   margin-top: 85px;
   background: whitesmoke;
-  height: 1000px;
 }
 
 .hexagon {
@@ -185,6 +184,13 @@ h4 {
   margin-top: 8px;
 }
 
+#bio {
+  margin-top: 50px;
+}
+
+#headshot {
+  max-width: 350px;
+}
 
 /* Media Queries */
 
