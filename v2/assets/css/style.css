@@ -64,11 +64,19 @@ a:hover {
   margin-top: 50px;
 }
 
+.project-filter {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(53, 52, 73)
+}
+
 .cat-active {
   background-color: #ff0077;  
   color: white;
   transition: background-color .7s;
 }
+
+
 
 #proj-row-1 {
   margin-top: 15px;
@@ -139,6 +147,9 @@ a:hover {
 }
 
 /* Media Queries */
+
+/* Add mq to fix overlay text spacing @ different vp widths */
+
 
 @media screen and (max-width: 576px) {
 
