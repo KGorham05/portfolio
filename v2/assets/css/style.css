@@ -23,6 +23,10 @@ a:hover {
   display: none;
 }
 
+.fb {
+  display: flex;
+}
+
 /* Nav */
 
 #nb {
@@ -47,7 +51,7 @@ a:hover {
 
 /* Portfolio */
 
-#port-heading {
+.heading {
   text-transform: uppercase;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
@@ -145,6 +149,25 @@ a:hover {
   color: white;
   background: #ff0077;
 }
+
+/* About Me */
+
+#about-me {
+  margin-top: 85px;
+  background: whitesmoke;
+  height: 1000px;
+}
+
+.hexagon {
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+  width: 115px;
+  background-image: url('../images/hexagon.png');
+  background-size: 100% 100%;
+  margin-top: 45px;
+}
+
 
 /* Media Queries */
 
