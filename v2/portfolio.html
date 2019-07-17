@@ -2,155 +2,228 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Kevin</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio | Kevin</title>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- My Css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- My Css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-  <!-- Nav -->
-  <nav id="nb" class="navbar navbar-expand-sm navbar-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="container">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a href="index.html"> HOME</a>
-          <a href="#about-me"> ABOUT</a>
-          <a href="#portfolio" class="active-nav"> PORTFOLIO</a>
-          <a href="#contact"> CONTACT</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+	<!-- Nav -->
+	<nav id="nb" class="navbar navbar-expand-sm navbar-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="container">
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a href="index.html"> HOME</a>
+					<a href="#about-me"> ABOUT</a>
+					<a href="#portfolio" class="active-nav"> PORTFOLIO</a>
+					<a href="#contact"> CONTACT</a>
+				</div>
+			</div>
+		</div>
+	</nav>
 
-  <!-- Start 1st .Container -->
-  <div class="container">
+	<!-- Start 1st .Container -->
+	<div class="container">
 
-    <!-- Portfolio -->
-    <div id="portfolio">
+		<!-- Portfolio -->
+		<div id="portfolio">
 
-      <!-- Heading Row -->
-      <div class="row">
-        <div class="col-12 text-center">
-          <h1 id="port-heading">Projects</h1>
-          <hr class="short-underline">
-        </div>
-      </div>
+			<!-- Heading Row -->
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1 id="port-heading">Projects</h1>
+					<hr class="short-underline">
+				</div>
+			</div>
 
-      <!-- Catagories Row -->
-      <div class="row text-center" id="cat-row">
-        <div class="col-sm-3">
-          <h4 id="all-btn" class="cat-active project-filter">All</h4>
-        </div>
-        <div class="col-sm-3">
-          <h4 id="full-stack-btn" class="project-filter">Full Stack</h4>
-        </div>
-        <div class="col-sm-3">
-          <h4 id="react-btn" class="project-filter">React</h4>
-        </div>
-        <div class="col-sm-3">
-          <h4 id="node-btn" class="project-filter">Node</h4>
-        </div>
-      </div>
+			<!-- Catagories Row -->
+			<div class="row text-center" id="cat-row">
+				<div class="col-sm-3">
+					<h4 id="all-btn" class="cat-active project-filter">All</h4>
+				</div>
+				<div class="col-sm-3">
+					<h4 id="full-stack-btn" class="project-filter">Full Stack</h4>
+				</div>
+				<div class="col-sm-3">
+					<h4 id="react-btn" class="project-filter">React</h4>
+				</div>
+				<div class="col-sm-3">
+					<h4 id="node-btn" class="project-filter">Node</h4>
+				</div>
+			</div>
 
-      <!-- Projects Row -->
-      <div class="row no-gutters text-center" id="proj-row-1">
-        <div class="col-lg-4">
-          <div class="work" id="dasher">
-            <div class="overlay">
-              <h3 class="over-title">Dasher</h3>
-              <h4 class="over-summary">Content Aggregator</h4>
-              <h4 class="over-tech">MySql Express Node Handlebars</h4>
-              <a href="https://github.com/Matt-S-Elliott/dasher-Online-Homepage/blob/master/README.md" target="_blank">
-                <img class="over-git" src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
-                  class="grow">
-              </a>
-              <a href="https://dasher-homepage.herokuapp.com/" target="_blank">
-                <h4 class="over-learn mx-auto">OPEN APP</h4>
-              </a>
-            </div>
-            <img src="assets/images/rainbow-tech.jpg" alt="DASHER" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="work" id="dasher">
-            <div class="overlay">
-              <h3 class="over-title">Dasher</h3>
-              <h4 class="over-summary">Content Aggregator</h4>
-              <h4 class="over-tech">MySql Express Node Handlebars</h4>
-              <a href="https://github.com/Matt-S-Elliott/dasher-Online-Homepage/blob/master/README.md" target="_blank">
-                <img class="over-git" src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
-                  class="grow">
-              </a>
-              <a href="https://dasher-homepage.herokuapp.com/" target="_blank">
-                <h4 class="over-learn mx-auto">OPEN APP</h4>
-              </a>
-            </div>
-            <img src="assets/images/rainbow-tech.jpg" alt="DASHER" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="work" id="dasher">
-            <div class="overlay">
-              <h3 class="over-title">Dasher</h3>
-              <h4 class="over-summary">Content Aggregator</h4>
-              <h4 class="over-tech">MySql Express Node Handlebars</h4>
-              <a href="https://github.com/Matt-S-Elliott/dasher-Online-Homepage/blob/master/README.md" target="_blank">
-                <img class="over-git" src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
-                  class="grow">
-              </a>
-              <a href="https://dasher-homepage.herokuapp.com/" target="_blank">
-                <h4 class="over-learn mx-auto">OPEN APP</h4>
-              </a>
-            </div>
-            <img src="assets/images/rainbow-tech.jpg" alt="DASHER" class="img-fluid">
-          </div>
-        </div>
-      <!-- End 1st proj row -->
-      </div>
+			<!-- Projects Row 1-->
+			<div class="row no-gutters text-center" id="proj-row-1">
+				<!-- Dasher -->
+				<div class="col-lg-4">
+					<div class="work" id="dasher">
+						<div class="overlay">
+							<h3 class="over-title">Dasher</h3>
+							<h4 class="over-summary">Content Aggregator</h4>
+							<h4 class="over-tech">MySql Express Node Handlebars</h4>
+							<a href="https://github.com/Matt-S-Elliott/dasher-Online-Homepage/blob/master/README.md"
+								target="_blank">
+								<img class="over-git" src="assets/images/GitHub-Mark-64px.png"
+									style="height: 48px; width: 48px" class="grow">
+							</a>
+							<a href="https://dasher-homepage.herokuapp.com/" target="_blank">
+								<h4 class="over-learn mx-auto">OPEN APP</h4>
+							</a>
+						</div>
+						<img src="assets/images/rainbow-tech.jpg" alt="DASHER" class="img-fluid">
+					</div>
+				</div>
 
-      <!-- #Portfolio Div -->
-    </div>
-    <!-- End 1st .Container -->
-  </div>
+				<!-- Pokemon -->
+				<div class="col-lg-4">
+					<div class="work" id="poke">
+						<div class="overlay">
+							<h2 class="over-title">Elite 4</h2>
+							<h4 class="over-summary">Real Time Multiplayer Game</h4>
+							<h4 class="over-tech">MongoDB Express Node React</h4>
+							<a class="over-git" href="https://github.com/KGorham05/mist/blob/master/README.md"
+								target="_blank">
+								<img src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
+									class="grow">
+							</a>
+							<a href="https://pokemon-fan-game.herokuapp.com/" target="_blank">
+								<h4 class="over-learn mx-auto">OPEN APP</h4>
+							</a>
+						</div>
+						<img src="./assets/images/detective-pikachu.jpg" alt="Elite 4" class="img-fluid">
+					</div>
+				</div>
+
+				<!-- KNA Music -->
+				<div class="col-lg-4">
+					<div class="work" id="music">
+						<div class="overlay">
+							<h2 class="over-title">KNA Music</h2>
+							<h4 class="over-summary">Music Event Search</h4>
+							<h4 class="over-tech">Firebase jQuery Bootstrap</h4>
+							<a class="over-git"
+								href="https://github.com/nataliebrickley/KNA-Music/blob/master/README.md"
+								target="_blank">
+								<img src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
+									class="grow">
+							</a>
+							<a href="https://nataliebrickley.github.io/KNA-Music/" target="_blank">
+								<h4 class="over-learn mx-auto">OPEN APP</h4>
+							</a>
+						</div>
+						<img src="assets/images/music-concert.jpg" alt="KNA music" class="img-fluid">
+					</div>
+				</div>
+
+			</div> <!-- End 1st proj row -->
+
+			<!-- Project Row 2 -->
+			<div class="row no-gutters text-center" id="proj-row-2">
+
+				<!-- News -->
+				<div class="col-lg-4">
+					<div class="work" id="news">
+						<div class="overlay">
+							<h2 class="over-title">Outdoor News</h2>
+							<h4 class="over-summary">Full-Stack News Scraper</h4>
+							<h4 class="over-tech">MongoDB Express Node Javascript</h4>
+							<a class="over-git" href="https://github.com/KGorham05/scraper-mongo" target="_blank">
+								<img src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
+									class="grow">
+							</a>
+							<a href="https://mongo-scraper-kg.herokuapp.com/" target="_blank">
+								<h4 class="over-learn mx-auto">OPEN APP</h4>
+							</a>
+						</div>
+						<img src="assets/images/jtree640.jpg" alt="Outdoor news" class="img-fluid">
+					</div>
+				</div>
+
+				<!-- Hero -->
+				<div class="col-lg-4">
+					<div class="work" id="hero">
+						<div class="overlay">
+							<h2 class="over-title">React Hero</h2>
+							<h4 class="over-summary">Memory Game Using React</h4>
+							<h4 class="over-tech">Express Node React</h4>
+							<a class="over-git" href="https://github.com/KGorham05/react-clicky-game" target="_blank">
+								<img src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
+									class="grow">
+							</a>
+							<a href="https://react-clicky-game-cbc-2019.herokuapp.com/" target="_blank">
+								<h4 class="over-learn mx-auto">OPEN APP</h4>
+							</a>
+						</div>
+						<img src="assets/images/capt.jpg" alt="React Hero" class="img-fluid">
+					</div>
+				</div>
+
+
+				<!-- Trivia -->
+				<div class="col-lg-4">
+					<div class="work" id="trivia">
+						<div class="overlay">
+							<h2 class="over-title">Space Trivia</h2>
+							<h4 class="over-summary">Front End Turn Based Game</h4>
+							<h4 class="over-tech">jQuery Bootstrap</h4>
+							<a class="over-git" href="https://github.com/KGorham05/TriviaGame" target="_blank">
+								<img src="assets/images/GitHub-Mark-64px.png" style="height: 48px; width: 48px"
+									class="grow">
+							</a>
+							<a href="https://kgorham05.github.io/TriviaGame/" target="_blank">
+								<h4 class="over-learn mx-auto">OPEN APP</h4>
+							</a>
+						</div>
+						<img src="assets/images/space.png" alt="Trivia Game" class="img-fluid">
+					</div>
+				</div>
+
+			<!-- End Project Row 2 -->
+			</div>
+
+			<!-- #Portfolio Div -->
+		</div>
+		<!-- End 1st .Container -->
+	</div>
 
 
 
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+	<!-- Bootstrap Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 
 
-  <script src="assets/js/app.js"></script>
+	<script src="assets/js/app.js"></script>
 </body>
 
 </html>
