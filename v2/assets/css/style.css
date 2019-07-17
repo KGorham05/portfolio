@@ -184,13 +184,35 @@ h4 {
   margin-top: 8px;
 }
 
-#bio {
+#bio, #skill-graph {
   margin-top: 50px;
 }
 
 #headshot {
   max-width: 350px;
 }
+
+.skill-row {
+  margin-bottom: 10px;
+  background: darkgrey;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bar-title-bg {
+  background: lightseagreen;
+}
+
+.title-text {
+  font-size: 18px;
+  color: white;
+  padding-top: 5px;
+}
+
+.bar-fill {
+ background: teal;
+}
+
 
 /* Media Queries */
 
