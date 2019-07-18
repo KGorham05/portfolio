@@ -265,11 +265,47 @@ height: 300px;
 }
 
 #submit-btn {
-  align-self: flex-end;
+  height: 50px;
+  width: 130px;
+  border: 2px solid white;
+  background: rgb(59, 57, 68);
+  color: white;
+  margin-bottom: 65px;
+  font-size: 16px;;
 }
 
+#submit-btn:hover {
+  cursor: pointer;
+  transition: .3s;
+  font-size: 18px;
+}
 
+/* Footer */
 
+#footer {
+  background: #2c2d31
+}
+
+#back-to-top {
+  transform: rotate(270deg);
+  position: relative;
+  bottom: 22px;
+  background: #ff0077;
+  padding: 5px 10px;
+}
+
+#back-to-top:hover {
+  background: #26abae;
+}
+
+.icons {
+  background: rgb(59, 57, 68);
+  padding: 15px;
+  margin-top: 35px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 65px;
+}
 
 /* Media Queries */
 
