@@ -229,10 +229,17 @@ h4 {
 
 #contact-heading {
   color: white;
+  margin-top: 65px;
 }
 
 #contact-underline {
   border: 1px solid white;
+}
+
+#contact-tag {
+  color: #26abae;
+  font-weight: 400;
+  margin-top: 20px;
 }
 /* Media Queries */
 
