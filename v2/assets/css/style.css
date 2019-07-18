@@ -49,11 +49,12 @@ h4 {
   text-decoration: none;
 }
 
-.navbar-nav a.active-nav {
-  color: #ff0077;
+.highlight {
+  color: #ff0077 !important;
 }
 
 /* Portfolio */
+
 
 .heading {
   text-transform: uppercase;
@@ -165,7 +166,6 @@ h4 {
 /* About Me */
 
 #about-me {
-  margin-top: 85px;
   background: whitesmoke;
 }
 
