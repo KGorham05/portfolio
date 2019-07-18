@@ -75,7 +75,13 @@ h4 {
 .project-filter {
   font-size: 18px;
   text-transform: uppercase;
-  color: rgb(53, 52, 73)
+  color: rgb(53, 52, 73);
+  }
+
+.project-filter:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: .3s;
 }
 
 /* need on hover event here to indicate clickable button */
