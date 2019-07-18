@@ -192,6 +192,14 @@ h4 {
   max-width: 350px;
 }
 
+#headshot-title {
+  margin-top: 15px;
+}
+
+#contact-link {
+  color: blue;
+}
+
 .skill-row {
   margin-bottom: 10px;
   background: darkgrey;
@@ -213,7 +221,19 @@ h4 {
  background: teal;
 }
 
+/* Contact Section */
 
+#contact-me-bg {
+  background: rgb(59, 57, 68);
+}
+
+#contact-heading {
+  color: white;
+}
+
+#contact-underline {
+  border: 1px solid white;
+}
 /* Media Queries */
 
 /* Add mq to fix overlay text spacing @ different vp widths */
